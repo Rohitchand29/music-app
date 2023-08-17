@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 54%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px ;
+    background-image: url(shubh.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 18px 0px;
+}
+
+.icons i{
+    width: 80px;
+    cursor: pointer;
+}
+
+#progressbar {
+    width: 80vw;
+}
+
+.songItem{
+    height: 55px;
+    display: flex;
+    background-color: white;
+    width: 120%;
+    color: grey;
+    margin: 32px 0px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+.songItem img{
+    width: 47px;
+    margin: 0px 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 11vw;
+}
